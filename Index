@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil de Hamza Ben Ouhoud</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #0066cc, #33ccff);
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #007acc 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('background.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 30px 20px;
+            background: #f4f4f4;
+        }
+        .content h2 {
+            text-align: center;
+        }
+        .content p {
+            line-height: 1.6;
+        }
+        .content .btn {
+            display: inline-block;
+            color: #fff;
+            background: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Hamza Ben Ouhoud</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="#">Compétences</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Bienvenue sur ma page personnelle</h1>
+            <p>Ingénieur généraliste avec 12 ans d'expérience dans le management de projet et l'intégration de produits digitaux</p>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Avec une expérience solide dans le domaine de l'ingénierie, j'ai dirigé des projets majeurs tels que le LGV Maroc et le tramway de Casablanca. Mon expertise s'étend de la gestion de projet à l'intégration de produits digitaux, avec un accent particulier sur la qualité, la sécurité et l'environnement (QSE).</p>
+            <h2>Projets Réalisés</h2>
+            <ul>
+                <li><strong>LGV Maroc - Lot Signalisation :</strong> Responsable QSE pour 700 personnes, avec 0 accident, récompensé par le premier prix du SERCE et le deuxième prix d'innovation HSE chez Engie.</li>
+                <li><strong>Tramway de Casablanca - Ligne 2 :</strong> Chef de projet maintenance signalisation.</li>
+                <li><strong>BHNS de Casablanca :</strong> Responsable QSE.</li>
+                <li><strong>Digitalisation des Processus Opérationnels :</strong> Responsable de la digitalisation de l'ensemble des processus opérationnels.</li>
+            </ul>
+            <h2>Compétences</h2>
+            <ul>
+                <li>Management de projet</li>
+                <li>Intégration de produits digitaux</li>
+                <li>Qualité, Sécurité et Environnement (QSE)</li>
+                <li>Digitalisation des processus</li>
+            </ul>
+            <a href="#" class="btn">Me Contacter</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Hamza Ben Ouhoud. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
